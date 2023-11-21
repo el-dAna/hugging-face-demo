@@ -1,5 +1,9 @@
 import click
+from typing import Union
+from fastapi import FastAPI
+
 from functions import add
+from main_fastapi import app
 
 
 @click.command()
@@ -15,6 +19,7 @@ def arithmetic_add(a, b):
 
 if __name__ == "__main__":
     arithmetic_add()
+    app
 
 
 # from transformers import pipeline

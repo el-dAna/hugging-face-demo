@@ -1,2 +1,6 @@
 pytest
 --editable .
+fastapi
+pydantic
+uvicorn
+fire
