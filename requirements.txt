@@ -1,4 +1,2 @@
-gradio
-transformers
-tensorflow
 pytest
+--editable .
